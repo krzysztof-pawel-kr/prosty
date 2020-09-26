@@ -24,4 +24,4 @@ int main(void)
     }
 
     cout << "Wynik dodawania wynosi: " << a+b << endl;  
-}
+}//
