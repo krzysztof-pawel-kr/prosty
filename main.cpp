@@ -5,11 +5,23 @@ float a, b, wynik;
 
 int main(void)
 {
+    system("cls");
+
     cout << "Wpisz liczbe 1: ";
-    cin >> a;
+    if (!(cin >> a))
+    {   
+        cout << "Nie wpisano liczby." << endl;
+        cin.clear();
+        cin.sync();
+    }
 
     cout << "Wpisz liczbe 2: ";
-    cin >> b;
+    if (!(cin >> b))
+    {   
+        cout << "Nie wpisano liczby." << endl;
+        cin.clear();
+        cin.sync();
+    }
 
     cout << "Wynik dodawania wynosi: " << a+b << endl;  
 }
