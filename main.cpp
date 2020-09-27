@@ -22,6 +22,6 @@ int main(void)
         cin.clear();
         cin.sync();
     }
-
-    cout << "Wynik dodawania wynosi: " << a+b << endl;  
+    wynik = a+b;
+    cout << "Wynik dodawania wynosi: " << wynik << endl;  
 }//
