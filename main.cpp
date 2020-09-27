@@ -22,6 +22,6 @@ int main(void)
         cin.clear();
         cin.sync();
     }
-    wynik = a+b;
+    wynik = a+b; // tu zmieniłem, dodałem zmienna posrednuiczącą...
     cout << "Wynik dodawania wynosi: " << wynik << endl;  
 }//
